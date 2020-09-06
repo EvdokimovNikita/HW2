@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+</head>
+<style>
+    TABLE {
+        background: aqua; /* Цвет фона */
+        border: 1px solid black; /* рамка вокруг таблицы*/
+    }
+
+    TD, TH {
+        padding: 3px; /* Поля вокруг содержимого таблицы */
+        border: 1px solid black; /* Параметры рамки */
+        width: 15px; /* Выравнивание ширины ячеек*/
+        text-align: center /* Выравнивание текста по центру */
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td rowspan="3">Вертикальное</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>4</td>
+        <td>6</td>
+        <td>8</td>
+        <td>10</td>
+        <td>12</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>12</td>
+        <td>15</td>
+        <td>18</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+        <td>16</td>
+        <td>20</td>
+        <td>24</td>
+        <td>28</td>
+        <td rowspan="2">Объединение</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>10</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+        <td>30</td>
+        <td>35</td>
+    </tr>
+    <tr>
+        <td colspan="4">Горизонтальное</td>
+        <td colspan="4">Объединение</td>
+    </tr>
+</table>
+</body>
+</html>
